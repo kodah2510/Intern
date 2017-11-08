@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "server",
+  "main": "server.js",
+  "author": {
+    "name": "Khoa"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "script":{
+    "serve": "nodemon server.js"
+  }
+}
